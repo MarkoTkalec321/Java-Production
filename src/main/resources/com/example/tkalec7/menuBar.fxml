@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="25.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tkalec7.MenuController">
+    <MenuBar>
+        <menus>
+            <Menu mnemonicParsing="false" text="Category">
+                <items>
+                    <MenuItem mnemonicParsing="false" onAction="#showCategorySearchScreen" text="Search" />
+               <MenuItem mnemonicParsing="false" onAction="#showAddCategoryScreen" text="Add new Category" />
+                </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Item">
+                <items>
+                    <MenuItem mnemonicParsing="false" onAction="#showItemSearchScreen" text="Search" />
+               <MenuItem mnemonicParsing="false" onAction="#showAddItemScreen" text="Add new Item" />
+                </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Factory">
+                <items>
+                    <MenuItem mnemonicParsing="false" onAction="#showFactorySearchScreen" text="Search" />
+               <MenuItem mnemonicParsing="false" onAction="#showAddFactoryScreen" text="Add new Factory" />
+                </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Store">
+                <items>
+                    <MenuItem mnemonicParsing="false" onAction="#showStoreSearchScreen" text="Search" />
+               <MenuItem mnemonicParsing="false" onAction="#showAddStoreScreen" text="Add new Store" />
+                </items>
+            </Menu>
+         <Menu mnemonicParsing="false" text="Client">
+           <items>
+             <MenuItem mnemonicParsing="false" onAction="#showClientSearchScreen" text="Search clients" />
+               <MenuItem mnemonicParsing="false" onAction="#showAddClientScreen" text="Add new client" />
+           </items>
+         </Menu>
+        </menus>
+    </MenuBar>
+
+</AnchorPane>

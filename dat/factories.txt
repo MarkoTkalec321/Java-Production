@@ -1,0 +1,8 @@
+1
+Foodfactory
+2
+1,2,3,4,5
+2
+MetalFactory
+3
+1,2,3,4
